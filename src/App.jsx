@@ -3,7 +3,7 @@ import moon from './section-1.webp';
 import land from './section-3.webp';
 import hill from './section-2.webp';
 import cat from './bear.gif';
-import rainSound from './rain1.wav';
+import rainSound from './rain1.mp3';
 import Preview from './Preview';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Sorry from './Sorry';
