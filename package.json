@@ -1,7 +1,7 @@
 {
-  "name": "scroll-demo",
+  "name": "i-m-sorry",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
@@ -10,18 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@codemirror/basic-setup": "^0.20.0",
-    "@codemirror/lang-css": "^6.2.1",
-    "@codemirror/lang-html": "^6.4.9",
-    "@codemirror/lang-javascript": "^6.2.2",
-    "@codemirror/state": "^6.4.1",
-    "@codemirror/view": "^6.33.0",
-    "@react-spring/parallax": "^9.4.4",
-    "@uiw/react-codemirror": "^4.23.0",
     "ace-builds": "^1.36.2",
-    "codemirror": "^6.0.1",
     "firebase": "^10.13.1",
-    "gasp": "^0.0.2",
+    "gsap": "^3.11.5", 
     "react": "^17.0.2",
     "react-ace": "^12.0.0",
     "react-dom": "^17.0.2",
