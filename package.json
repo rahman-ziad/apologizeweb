@@ -1,7 +1,7 @@
 {
   "name": "i-m-sorry",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
