@@ -296,7 +296,7 @@ const Preview = () => {
         }
         .sub-heading{
         position: absolute;
-        padding-top:20px;
+        padding-top:30px;
             top: 15%;
             left: 50%;
             transform: translateX(-50%);
@@ -312,9 +312,14 @@ const Preview = () => {
                 top: 50%;
                 
             }
-                .sub-heading{
+            .sub-heading{
                 font-size: 20px;
                 top: 70%;
+            }
+        }
+        @media (min-width: 595px) and (max-width: 1020px){
+            .sub-heading{
+            padding-top: 80px;
             }
         }
     </style>

@@ -11,6 +11,16 @@ img {
     width: 60%;
   }
 }
+@media (min-width: 610px) and (max-width: 1000px){
+  img{
+    width: 35%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1650px){
+  img{
+    width: 25%;
+  }
+}
 h2 {
   text-align: center;
   font-family: cubano, sans-serif;
