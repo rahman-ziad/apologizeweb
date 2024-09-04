@@ -1,6 +1,7 @@
 import React from 'react';
 import nope from './nope.mp3';
 import yes from './yes.mp3';
+import SorryImg from './pls.gif';
 const Sorry = () => {
   const htmlCode = `
     <!DOCTYPE html>
@@ -165,7 +166,7 @@ const Sorry = () => {
       <main>
         <canvas id="confetti-canvas"></canvas>
         <div class="gif-container">
-          <img id="gif" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzlwbnc2cGYxcDc3YmIxYnpiM2RxNjRvOHJpcTA5Nzc4amRoZDFkMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PacM0z9ybTJXmUq1Sr/giphy.gif" alt="Please">
+          <img id="gif" src="${SorryImg}" alt="Please">
         </div>
         <div class="button-container">
           <button id="no-button">No</button>

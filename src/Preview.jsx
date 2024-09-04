@@ -348,12 +348,12 @@ I would like to apologize for my comment regarding the pictures that you sent me
                             <div class="note js-note">
                                 <div class="note__text">
                                     <p>I understand why you might have felt upset with my comment, and it was not my place to question your choices. You have every right to share your photos however and wherever you want, and I regret making you feel as though you needed to provide me with something special.
-I am sorry for that and I apologize.</p>
+I am sorry for that and I apologize.I hope you know how much I value our friendship and that your feelings matter to me.</p>
                                 </div>
                             </div>
                             <div class="note js-note">
                                 <div class="note__text">
-                                    <p>I hope you know how much I value our friendship and that your feelings matter to me. I hope you will forgive me for my thoughtless words. I’d love to talk things over and rebuild the trust that may have been hurt.</p>
+                                    <p> I hope you will forgive me for my thoughtless words. I’d love to talk things over and rebuild the trust that may have been hurt.</p>
                                     <p>Thank you for considering my apology. I genuinely hope to hear from you soon.</p>
                                     </br>
                                     <p >With all my heart</p>
@@ -393,7 +393,7 @@ I am sorry for that and I apologize.</p>
         //-> Main function that enables all the notes.
         function notes_ready() {
             gsap.to(".js-envelop-content", {
-                height: "140%",
+                height: "130%",
                 duration: 0.5
             });
 
