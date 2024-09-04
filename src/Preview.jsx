@@ -56,7 +56,12 @@ const Preview = () => {
         html, body {
             height: 100%;
         }
-
+        @media (min-width: 400px) and (max-width: 600px) {
+        html, body {
+            height: 100%;
+            padding-top: 100px;
+        }
+}
         body {
             width: 100%;
             font-size: 20px;
@@ -301,6 +306,17 @@ const Preview = () => {
             z-index: 400;
             text-align: center;
         }
+        @media (min-width: 300px) and (max-width: 600px) {
+            .heading{
+                font-size: 30px;
+                top: 50%;
+                
+            }
+                .sub-heading{
+                font-size: 20px;
+                top: 70%;
+            }
+        }
     </style>
 </head>
 <body class="scissors">
@@ -308,6 +324,7 @@ const Preview = () => {
         <div class="twinkling">
             <div class="clouds">
                 <audio id="background-music" src="${letter}"></audio>
+                <div class="container-env">
                 <div class="envelop">
                     <div class="envelop__front-paper"></div>
                     <div class="envelop__back-paper"></div>
@@ -340,6 +357,7 @@ I am sorry for that and I apologize.</p>
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
