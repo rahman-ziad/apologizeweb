@@ -162,7 +162,7 @@ function App() {
         </ParallaxLayer>
 
         <ParallaxLayer offset={0.2} speed={0.15}>
-          <h2>I'm SORRY, </h2>
+          <h2>I'm SORRY, SANZIDA</h2>
         </ParallaxLayer>
 
         <ParallaxLayer offset={1.5} speed={2}>
