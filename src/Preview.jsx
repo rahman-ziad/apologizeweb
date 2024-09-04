@@ -59,7 +59,7 @@ const Preview = () => {
         @media (min-width: 300px) and (max-width: 600px) {
         html, body {
             height: 100%;
-            padding-top: 150px;
+            padding-top: 200px;
         }
 }
         body {
@@ -261,7 +261,7 @@ const Preview = () => {
 
         @media (min-width: 300px) and (max-width: 600px) {
             .note__text p {
-                font-size: 16px;
+                font-size: 12px;
             }
         }
 
@@ -309,12 +309,12 @@ const Preview = () => {
         @media (min-width: 300px) and (max-width: 600px) {
             .heading{
                 font-size: 30px;
-                top: 50%;
+                top: 60%;
                 
             }
             .sub-heading{
                 font-size: 20px;
-                top: 70%;
+                top: 80%;
             }
         }
         @media (min-width: 595px) and (max-width: 1020px){
@@ -393,7 +393,7 @@ I am sorry for that and I apologize.I hope you know how much I value our friends
         //-> Main function that enables all the notes.
         function notes_ready() {
             gsap.to(".js-envelop-content", {
-                height: "130%",
+                height: "125%",
                 duration: 0.5
             });
 
