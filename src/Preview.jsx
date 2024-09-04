@@ -56,10 +56,10 @@ const Preview = () => {
         html, body {
             height: 100%;
         }
-        @media (min-width: 400px) and (max-width: 600px) {
+        @media (min-width: 300px) and (max-width: 600px) {
         html, body {
             height: 100%;
-            padding-top: 100px;
+            padding-top: 150px;
         }
 }
         body {
