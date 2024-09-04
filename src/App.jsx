@@ -8,6 +8,7 @@ import Preview from './Preview';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Sorry from './Sorry';
 import Slider from './Slider';
+import Playerv from './playerv';
 import { FaHeadphones, FaDesktop } from 'react-icons/fa'; // Importing icons
 
 function App() {
@@ -74,7 +75,7 @@ function App() {
         </div>
       )}
 
-      <Parallax pages={6}>
+      <Parallax pages={7}>
         <ParallaxLayer
           offset={0}
           speed={0}
@@ -154,6 +155,13 @@ function App() {
           <Sorry/>
         </ParallaxLayer>
 
+        <ParallaxLayer
+        offset={6}
+        speed={0}
+        
+        >
+          <Playerv/>
+        </ParallaxLayer>
         <ParallaxLayer
           sticky={{ start: 0.9, end: 2.1 }}
           style={{ textAlign: 'center' }}
