@@ -1,7 +1,7 @@
 {
-  "name": "scroll-demo",
-  "private": true,
-  "version": "0.0.0",
+  "name": "i-m-sorry",
+  "private": false,
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
